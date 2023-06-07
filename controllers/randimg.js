@@ -12,5 +12,5 @@
     type()
     let num = Math.floor(Math.random() * 6)
     let arr = ['rias', 'koneko', 'akeno', 'asia', 'xenovia', 'irina']
-    document.getElementById('randimage').src = `https://cdn-anime-images-api.hisoka17.repl.co/images/${arr[num]}.png`;
+    document.getElementById('randimage').src = `http://localhost:5000/images/${arr[num]}.png`;
   };
