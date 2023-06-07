@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Anime-Images API</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anime-Images API">
+<meta property="og:title" content="Anime-Images API">
+<meta property="og:description" content="A Powerful Rest API For Getting Anime-Images">
+<meta property="og:image" content="https://cdn.myanimelist.net/images/characters/5/150011.jpg">
+<meta content="#eb347a" data-react-helmet="true" name="theme-color">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/css/main.css" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://css.gg/home-alt.css' rel='stylesheet'>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<link rel = "icon" href = 
+"https://cdn-anime-images-api.hisoka17.repl.co/images/rias.png">
+  </head>
+
+<body>
+
+<img src="" class="rias" height="730px" id="randimage">
+<div class="navbar">
+  <a href="https://Anime-API.hisoka17.repl.co" class="active"><i class="fa fa-home"></i> Anime-Images API</a>
+  <a href="discord" target="_blank">Our Discord Server</a>
+  <a href="invite" target="_blank">Our Discord Bot</a>
+  <a href="wrappers">API Wrapper</a>
+  <a href="github" target="_blank">Github</a>
+  <a href="partners">Our Partners</a>
+  <a style="float: right;" onclick="handleIssue()">Create An Issue</a>
+</div>
+<p class="title" id="t"></p>
+<p class="info" id="about">
+<br>About:</br>
+</br></br>
+Anime-Images API is a powerful Rest API built with Node.JS
+<br>> 1000+ Images</br>
+> 10+ Endpoints. With more being Added
+<br>> Lightning fast responses</br>
+</p>
+<form id="issue_form" style="display: none; background-color: cyan; position: absolute; height: 25%; width: 25%; right: 2%;" method="post" action="/resolveissue">
+  <h1 style="font-size: 18px; padding: 1px 55px;">Create an Issue <span style="float:right; cursor: pointer;" onclick="document.getElementById('issue_form').style.display = 'none'">&#x2716;</span></h1>
+  <span style="font-family: Varela Round;">Your Discord Username:</span><input placeholder="Example: ItsHisoka17#0010" style="background-color: cyan;" name="name" required></input>
+  <br></br>
+  <span style="font-family: Varela Round;">Issue:</span><input placeholder="Example: Kiss Endpoint Not Working" style="background-color: cyan;" name="issue" required></input>
+  <button type="submit" class="btn btn-success" style="position: absolute; top: 60%; right: 40%;">Create</button>
+</form>
+<script>
+  function handleIssue(){
+    document.getElementById("issue_form").style.display = "block";
+  }
+</script>
+<footer>
+  <a href="github">Copyright Hisoka Developments©</a>
+  <br></br>
+  <a onclick="darkmode()">Toggle Dark-Mode</a>
+</footer>
+<script src="controllers/randimg.js"></script>
+<script src="controllers/darkmode.js"></script>
+  </body>
+</html>

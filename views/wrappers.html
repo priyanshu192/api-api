@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<title>Anime-Images API</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Anime-Images API">
+<meta property="og:title" content="Anime-Images API">
+<meta property="og:description" content="A Powerful Rest API For Getting Anime-Images">
+<meta property="og:image" content="https://cdn.myanimelist.net/images/characters/5/150011.jpg">
+<meta content="#eb347a" data-react-helmet="true" name="theme-color">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='https://css.gg/home-alt.css' rel='stylesheet'>
+<link rel="stylesheet" href="css/main.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+<link rel = "icon" href = 
+"https://cdn-anime-images-api.hisoka17.repl.co/images/rias.png">
+  </head>
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2013/05/201.png);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #eb347a;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e31061;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.active {
+  background-color: #e31061;
+  color: white;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.title {
+  font-family: Varela Round;
+  font-size: 40px;
+  color: #ed6d9e;
+  position: absolute;
+  top: 15%;
+  right: 45%;
+  font-weight: bold;
+}
+footer {
+  background-color: #eb347a;
+  text-align: center;
+  padding: 3px;
+  position: absolute;
+  top: 150%;
+  width: 98%;
+}
+.wrappers {
+  color: pink;
+  font-size: 25px;
+  background-color: grey;
+  position: absolute;
+  top: 40%;
+  right: 35%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.wrappers1 {
+  color: pink;
+  font-size: 25px;
+  background-color: grey;
+  position: absolute;
+  top: 60%;
+  right: 38%;
+  text-decoration: none;
+  font-weight: bold;
+}
+.wrappers:hover {
+  background-color: red;
+}
+.wrappers1:hover {
+  background-color: red;
+}
+footer a:link {
+  color: black;
+  text-decoration: none;
+}
+</style>
+<body>
+
+<div class="navbar">
+  <a href="https://Anime-API.hisoka17.repl.co">Anime-Images API</a>
+  <a href="discord" target="_blank">Our Discord Server</a>
+  <a href="invite" target="_blank">Invite Our Discord Bot</a>
+  <a href="wrappers"class="active">API Wrapper</a>
+  <a href="github" target="_blank">Github</a>
+  <a href="partners">Our Partners</a>
+  <div class="dropdown">
+    <button class="dropbtn">Endpoints
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="img/hug" target="_blank">Hug</a>
+      <a href="img/kiss" target="_blank">Kiss</a>
+      <a href="img/punch" target="_blank">Punch</a>
+      <a href="img/slap" target="_blank">Slap</a>
+      <a href="img/wink" target="_blank">Wink</a>
+      <a href="img/pat" target="_blank">Pat</a>
+      <a href="img/kill" target="_blank">Kill</a>
+      <a href="img/cuddle" target="_blank">Cuddle</a>
+      <a href="img/waifu" target="_blank">Waifu</a>
+      <a href="img/nsfw/hentai" target="_blank">Hentai (NSFW)</a>
+      <a href="img/nsfw/boobs" target="_blank">Boobs (NSFW)</a>
+      <a href="img/nsfw/lesbian" target="_blank">Lesbian (NSFW)</a>
+    </div>
+  </div> 
+</div>
+<p class="title" id="t">Our API Wrappers:</p>
+
+<a href="https://www.npmjs.com/package/anime-images-api" class="wrappers" target="_blank">Javascript Wrapper | Created By: ItsHisoka17 #0017</a>
+<a href="https://github.com/SkellyM386/anime-images-api" class="wrappers1" target="_blank">Python Wrapper | Created By: skelly386 #1410</a>
+<footer>
+  <a href="github">Copyright Hisoka Developments ©</a>
+</footer>

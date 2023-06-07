@@ -1,0 +1,21 @@
+{
+  "name": "image-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hisoka",
+  "license": "ISC",
+  "dependencies": {
+    "@polka/send-type": "^0.5.2",
+    "@top-gg/sdk": "^3.1.1",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "node-superfetch": "^0.2.3",
+    "polka": "^0.5.2"
+  }
+}

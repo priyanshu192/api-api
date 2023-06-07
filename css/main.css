@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(https://inspirationhut.net/wp-content/uploads/2013/05/201.png);
+}
+.navbar {
+  overflow: hidden;
+  background-color: #eb347a;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #e31061;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.active {
+  background-color: #e31061;
+  color: white;
+}
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.title {
+  font-family: Varela Round;
+  font-size: 40px;
+  color: #ed6d9e;
+  position: absolute;
+  top: 15%;
+  right: 45%;
+  font-weight: bold;
+}
+.info {
+  padding: 40px;
+  transition: transform .2s;
+  font-size: 20px;
+  color: #c27894;
+  position: absolute;
+  top: 40%;
+  right: 36%;
+  font-weight: bold;
+  border: solid;
+  background-color: #f5dce6;
+  border-color: #f5dce6;
+}
+.info:hover {
+  transform: scale(1.1);
+}
+.rias {
+  position: absolute;
+  right: 0.01%;
+  top: 25%;
+}
+.input {
+  position: absolute;
+  right: 30%;
+  top: 90%;
+  font-size: 20px;
+}
+footer {
+  background-color: #eb347a;
+  position: absolute;
+  top: 100%;
+  width: 98%
+}
+footer a {
+  text-decoration: none;
+  color: black;
+  font-family: Varela Round;
+  right: 40%;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}

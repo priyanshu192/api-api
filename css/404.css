@@ -1,0 +1,52 @@
+        body {
+          background-image: url(https://inspirationhut.net/wp-content/uploads/2013/05/201.png);
+          size: cover;
+        }
+        .main {
+          font-family: Varela Round;
+          color: red;
+          font-size: 100px;
+          font-weight: bold;
+          position: absolute;
+          top: 10%;
+          right: 29% 
+        }
+        .main1 {
+          color: red;
+          font-size: 45px;
+          font-weight: bold;
+          position: absolute;
+          top: 35%;
+          right: 30% 
+        }
+        a {
+          font-size: 32px;
+          font-weight: bold;
+          position: absolute;
+          top: 60%;
+          right: 40%;
+          transform:translate(-50%,-50%);
+          animation:blinkingText 1.2s infinite}@keyframes blinkingText{0%{color:red}49%{color:red}60%{color:transparent}99%{color:transparent}100%{color:red}};
+        }
+        a:hover{
+          animation:stalecolor}@keyframes stalecolor{100%{color:#000}}
+        a:visited {
+         color: #eb3449;
+         background-color: transparent;
+         text-decoration: none;
+}
+        a:hover {
+         color: red;
+         background-color: transparent;
+         text-decoration: underline;
+}
+        a:active {
+         color: yellow;
+         background-color: transparent;
+         text-decoration: underline;
+}
+        .brokenrobo {
+          position: absolute;
+          right: 2%;
+          top: 40%;
+        }
